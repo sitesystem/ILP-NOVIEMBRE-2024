@@ -12,8 +12,10 @@ número_2 = float(input("Ingresa otro número: "))
 suma = número_1 + número_2 # SUMA
 resta = número_1 - número_2	# RESTA
 multiplicación = número_1 * número_2 # MULT
+potencia = número_1 ** número_2
 
 # SALIDAS (IMPRIMIR O MOSTRAR EN PANATALLA)
 print("LA SUMA ES =", suma) # CONCATENACIÓN (unión) CON LA COMA (,)
 print('LA RESTA ES = ' + str(resta)) # CONCATENACIÓN (unión) CON (+) POR CASTEO (Convertir un tipo de dato a otro tipo de dato)
 print(f"LA MULTIPLICACIÓN ES = {multiplicación}") # INTERPOLACIÓN DE TEXTO
+print("LA POTENCIA DE n1 ELEVADO A n2 =", potencia)
